@@ -15,7 +15,7 @@ export default {
     async mounted () {
         await fetch("https://api.github.com/repos/LucasFN1314/ProyectoGaleria/contents/public/images", {
             headers: {
-                "Authorization": "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",
+                "Authorization": "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",
             }
         }).then(response => response.json()).then((data) => {
             console.log(data);
